@@ -12,3 +12,9 @@
         
 */
 
+var counter= 1;
+var things = '#' ;
+$('.gameCol').click(function() { 
+  $("#"+counter).css("background-color", "red")
+  counter++;
+})
