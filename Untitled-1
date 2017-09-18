@@ -1,0 +1,75 @@
+<div class="header text-center">
+  <h1>Connect Four</h1>
+</div>
+<div class="body container ">
+  <div class="jumbotron ">
+    <div class="container gameboard">
+      <div class="gameWrap eqWrap">
+        <div class="gameCol eq" id="row1">
+            <div class="token" data-id=""></div>
+            <div class="token"></div>
+            <div class="token"></div>
+            <div class="token"></div>
+            <div class="token"></div>
+            <div class="token"></div>
+        </div>
+        <div class="gameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+        </div>
+        <div class="gameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+
+        </div>
+        <div class="GameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+
+        </div>
+        <div class="gameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+
+        </div>
+        <div class="gameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+        </div>
+        <div class="gameCol eq">
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+          <div class="token"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="token">
+  <div id="circle"></div>
+</div>
