@@ -19,7 +19,7 @@ $(".arow").click(function(){
     
     var activePlayer = $(this).closest(".gameBoard").data("activeplayer"); 
     //Get First available slot
-    var cells = $(" .gameBoard .arow div:nth-child(" + (col+1)  +")");
+    var cells = $(" .gameBoard .arow["+col+"]");
     
     var cell;
     for(var i = cells.length -1; i > -1; i--)
