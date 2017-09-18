@@ -1,5 +1,5 @@
 # Connect4 GA_Project
-![Image of Yaktocat](~/src/images/wireframe.png)
+![Image of Yaktocat](./src/images/wireframe.png)
 
 Goals:
 
