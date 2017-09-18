@@ -1,83 +1,88 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.4;
-  }
-  
-  h1 {
-    font-size: 150%;
-  }
-  li{
-    display: inline;
-    font-size: 200%;
-  }
-  p {
-    margin-bottom: 10px;
-  }
-  
-  .eqWrap {
-    display: flex;
-  }
-  
-  .eq {
-    padding: 10px;
-  }
-  
-  }
-  
-  .gameWrap {
-    align-items: center;
-    justify-content: center;
-    background-color: yellow;
-    border-radius: 15%;
-    border: 2px solid black;
-  }
-  
-  .gameHeader {
-    display: -webkit-flex;
-    display: flex;
-    padding: 0;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .blueScore {
-    display: flex-inline;
-    justify-content: flex-end;
-  }
-  .redScore {
-    display: flex-inline;
-    justify-content: flex-start;
-  }
-  
-  
-  
-  .gameCol {
-    width: 10%;
-  }
-  
-  .equalHMVWrap {
-    flex-wrap: wrap;
-  }
-  
-  .token {
-    width: 75px;
-    height: 75px;
-    background: white;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-  }
-  .token.blue  .token:hover, .token.blue {
-    background-color: blue;
-  }
-  
-  .token.red token:hover, .token.red {
-    background-color: red;
-  }
-  
-  #resetBoard {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 150%;
+}
+li{
+  display: inline;
+  font-size: 200%;
+}
+p {
+  margin-bottom: 10px;
+}
+
+.eqWrap {
+  display: flex;
+}
+
+.eq {
+  padding: 10px;
+}
+
+.eq:nth-of-type(odd) {
+  background: yellow;
+}
+
+.eq:nth-of-type(even) {
+  background: yellow;
+}
+
+.gameWrap {
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  border-radius: 15%;
+  border: 2px solid black;
+}
+
+.gameHeader {
+  display: -webkit-flex;
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.blueScore {
+  display: flex-inline;
+  justify-content: flex-end;
+}
+.redScore {
+  display: flex-inline;
+  justify-content: flex-start;
+}
+
+
+
+.gameCol {
+  width: 10%;
+}
+
+.equalHMVWrap {
+  flex-wrap: wrap;
+}
+
+.token {
+  width: 75px;
+  height: 75px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.token.blue  .token:hover, .token.blue {
+  background-color: blue;
+}
+
+.token.red token:hover, .token.red {
+  background-color: red;
+}
+
+#resetBoard {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,91 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./src/style.css"></style>
-    
+  <meta charset="UTF-8">
+  <title>GAWDI FRONT edit</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+
 <body>
-        <div class="header text-center">
-                <h1>Connect Four</h1>
-              </div>
-              <div class="body container ">
-                <div class="jumbotron ">
-                  <div class="container gameboard">
-                    <div class="gameHeader">
-                    </div>
-              
-                    <div class="gameWrap eqWrap " data-activeplayer="red" class="red">
-                      <div class="gameCol eq" id="row1">
-                        <div class="token" id="16"></div>
-                        <div class="token" id="15"></div>
-                        <div class="token" id="14"></div>
-                        <div class="token" id="13"></div>
-                        <div class="token" id="12"></div>
-                        <div class="token" id="11"></div>
-                      </div>
-                      <div class="gameCol eq" id="row2">
-                        <div class="token" id="26"></div>
-                        <div class="token" id="25"></div>
-                        <div class="token" id="24"></div>
-                        <div class="token" id="23"></div>
-                        <div class="token" id="22"></div>
-                        <div class="token" id="21"></div>
-                      </div>
-                      <div class="gameCol eq" id="row3">
-                        <div class="token" id="36"></div>
-                        <div class="token" id="35"></div>
-                        <div class="token" id="34"></div>
-                        <div class="token" id="33"></div>
-                        <div class="token" id="32"></div>
-                        <div class="token" id="31"></div>
-                      </div>
-                      <div class="gameCol eq" id="row4">
-                        <div class="token" id="46"></div>
-                        <div class="token" id="45"></div>
-                        <div class="token" id="44"></div>
-                        <div class="token" id="43"></div>
-                        <div class="token" id="42"></div>
-                        <div class="token" id="41"></div>
-                      </div>
-                      <div class="gameCol eq" id="row5">
-                        <div class="token" id="56"></div>
-                        <div class="token" id="55"></div>
-                        <div class="token" id="54"></div>
-                        <div class="token" id="53"></div>
-                        <div class="token" id="52"></div>
-                        <div class="token" id="51"></div>
-                      </div>
-                      <div class="gameCol eq" id="row6">
-                        <div class="token" id="66"></div>
-                        <div class="token" id="65"></div>
-                        <div class="token" id="64"></div>
-                        <div class="token" id="63"></div>
-                        <div class="token" id="62"></div>
-                        <div class="token" id="61"></div>
-                      </div>
-                      <div class="gameCol eq" id="row7">
-                        <div class="token" id="76"></div>
-                        <div class="token" id="75"></div>
-                        <div class="token" id="74"></div>
-                        <div class="token" id="73"></div>
-                        <div class="token" id="72"></div>
-                        <div class="token" id="71"></div>
-                      </div>
-                    </div>
-                  </div>
-              
-                </div>
-              
-              </div>
-    <script src="./src/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="./src/script.js"></script>
+  <div class="header text-center">
+  <h1>Connect Four</h1>
+</div>
+<div class="body container ">
+  <div class="jumbotron ">
+    <div class="container gameboard">
+      <div class="gameHeader">
+        <ul>
+          <li class="redScore">
+            Red Score: <span>0</span></li>
+          <li class="blueScore">
+            Blue Score: <sp>0</sp></li>
+        </ul>
+
+      </div>
+
+      <div class="gameWrap eqWrap " data-activeplayer="red" class="red">
+        <div class="gameCol eq" id="row1">
+          <div class="token" id="16"></div>
+          <div class="token" id="15"></div>
+          <div class="token" id="14"></div>
+          <div class="token" id="13"></div>
+          <div class="token" id="12"></div>
+          <div class="token" id="11"></div>
+        </div>
+        <div class="gameCol eq" id="row2">
+          <div class="token" id="26"></div>
+          <div class="token" id="25"></div>
+          <div class="token" id="24"></div>
+          <div class="token" id="23"></div>
+          <div class="token" id="22"></div>
+          <div class="token" id="21"></div>
+        </div>
+        <div class="gameCol eq" id="row3">
+          <div class="token" id="36"></div>
+          <div class="token" id="35"></div>
+          <div class="token" id="34"></div>
+          <div class="token" id="33"></div>
+          <div class="token" id="32"></div>
+          <div class="token" id="31"></div>
+        </div>
+        <div class="gameCol eq" id="row4">
+          <div class="token" id="46"></div>
+          <div class="token" id="45"></div>
+          <div class="token" id="44"></div>
+          <div class="token" id="43"></div>
+          <div class="token" id="42"></div>
+          <div class="token" id="41"></div>
+        </div>
+        <div class="gameCol eq" id="row5">
+          <div class="token" id="56"></div>
+          <div class="token" id="55"></div>
+          <div class="token" id="54"></div>
+          <div class="token" id="53"></div>
+          <div class="token" id="52"></div>
+          <div class="token" id="51"></div>
+        </div>
+        <div class="gameCol eq" id="row6">
+          <div class="token" id="66"></div>
+          <div class="token" id="65"></div>
+          <div class="token" id="64"></div>
+          <div class="token" id="63"></div>
+          <div class="token" id="62"></div>
+          <div class="token" id="61"></div>
+        </div>
+        <div class="gameCol eq" id="row7">
+          <div class="token" id="76"></div>
+          <div class="token" id="75"></div>
+          <div class="token" id="74"></div>
+          <div class="token" id="73"></div>
+          <div class="token" id="72"></div>
+          <div class="token" id="71"></div>
+        </div>
+      </div>
+      <button id="resetBoard">ResetBoard</button>
+    </div>
+
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
 </body>
 </html>
